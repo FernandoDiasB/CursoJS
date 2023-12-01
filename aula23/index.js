@@ -1,0 +1,1 @@
+console.log('Fernando Dias' && true && 'Valentina')
