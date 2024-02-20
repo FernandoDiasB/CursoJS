@@ -61,3 +61,6 @@ form button:hover {
     font-size: 3rem;
 }
 
+.stop {
+  color: #fd0000;
+}

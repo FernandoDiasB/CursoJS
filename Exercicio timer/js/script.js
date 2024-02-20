@@ -23,12 +23,14 @@ function initClock() {
 }
 
 iniciar.addEventListener('click', function (event) {
+    relogio.classList.remove("stop")
     clearInterval(timer);
     initClock();
 });
 
 pausar.addEventListener('click', function (event) {
     clearInterval(timer);
+    relogio.classList.add("stop");
 });
 
 zerar.addEventListener('click', function (event) {
